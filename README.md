@@ -1,15 +1,4 @@
-from life_support_items import coffee
-from time import sleep
-
-while True:
-    if coffee.is_empty:
-        print("Emergency! Coffee levels critical! Refilling...")
-        coffee.refill()
-    else:
-        print("All systems normal. Enjoying sweet nectar of life...")
-    sleep(10)  # because sometimes life makes you wait...
-    coffee.sip()
-    
+Living in an algocracy: where my choices are mine... or so they want me to think.    
 
 <!---
 aurbasek/aurbasek is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
